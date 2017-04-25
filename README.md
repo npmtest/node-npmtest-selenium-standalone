@@ -1,6 +1,6 @@
 # npmtest-selenium-standalone
 
-#### test coverage for  [selenium-standalone (v6.2.0)](https://github.com/vvo/selenium-standalone)  [![npm package](https://img.shields.io/npm/v/npmtest-selenium-standalone.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-selenium-standalone) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-selenium-standalone.svg)](https://travis-ci.org/npmtest/node-npmtest-selenium-standalone)
+#### basic test coverage for  [selenium-standalone (v6.4.1)](https://github.com/vvo/selenium-standalone)  [![npm package](https://img.shields.io/npm/v/npmtest-selenium-standalone.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-selenium-standalone) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-selenium-standalone.svg)](https://travis-ci.org/npmtest/node-npmtest-selenium-standalone)
 
 #### installs a `selenium-standalone` command line to install and start a standalone selenium server
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-selenium-standalone/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-selenium-standalone/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-selenium-standalone/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-selenium-standalone/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-selenium-standalone/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-selenium-standalone/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-selenium-standalone/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-selenium-standalone/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-selenium-standalone/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-selenium-standalone/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-selenium-standalone/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-selenium-standalone/build/coverage.html/index.html)
 
@@ -74,10 +74,10 @@
     },
     "directories": {},
     "dist": {
-        "shasum": "6977642769de23f3b5ddce880a93fe1cf220fe01",
-        "tarball": "https://registry.npmjs.org/selenium-standalone/-/selenium-standalone-6.2.0.tgz"
+        "shasum": "54288d4deae2909d251651964bebedc5f7adc66a",
+        "tarball": "https://registry.npmjs.org/selenium-standalone/-/selenium-standalone-6.4.1.tgz"
     },
-    "gitHead": "12eb9ef8ef2aea2e9140d13b8b21ba6e102fb594",
+    "gitHead": "ef9442c21ec9e35d6c9b00e484f3229f6e2c4265",
     "homepage": "https://github.com/vvo/selenium-standalone",
     "license": "MIT",
     "main": "index.js",
@@ -110,7 +110,7 @@
     "scripts": {
         "test": "./bin/selenium-standalone install && mocha"
     },
-    "version": "6.2.0"
+    "version": "6.4.1"
 }
 ```
 
